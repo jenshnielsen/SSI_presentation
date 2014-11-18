@@ -6,21 +6,21 @@
 
 ##Zacros: Kinetic Monte Carlo
 
-In principle about parallelization.
+In principle about parallelisation.
+
 However:
 
 *  Adding of testing framework.
-*  Standard complient code.
+*  Standard compliant code.
 *  Getting code compiling with multiple (Fortran) compilers.
 *  Maintainable for the future.
-*  Continus integration (Multiple compilers)
-
+*  Continuous integration (Multiple compilers)
 
 #Open source contributions
 
 ##Matplotlib
 
 *  60+ Pull requests merged
-*  Work on test suite, warnings cleanup.
-*  Reprodusable warning free docs build. (Warnigns as errors)
-*  Pull request review.
+*  Work on test suite, warnings clean up.
+*  Reproducible warning free docs build. (Warnings as errors)
+*  Latest Matplotlib releases have DOIs to aid reproducibility.
