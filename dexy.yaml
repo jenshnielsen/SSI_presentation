@@ -1,0 +1,13 @@
+"slides.md|pandoc|-reveal|h":
+    - inputs
+    - output-name: "slides.html"
+    - pandoc:
+        args: -t revealjs -V theme=moon
+            --default-image-extension=png
+            --include-in-header=/Users/jhn/ucl/SSI_presentation/custom.css
+            --highlight-style=zenburn
+            --mathjax
+            -V revealjs-url=http://lab.hakim.se/reveal-js/
+            --css=http://lab.hakim.se/reveal-js/css/theme/moon.css
+            --slide-level=2
+            -V transition=slide
