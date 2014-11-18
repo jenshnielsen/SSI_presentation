@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Jens Hedegaard Nielsen" />
+  <title>SSI Fellowship Online Selection</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js//css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/moon.css"/>
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://lab.hakim.se/reveal-js//css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="http://lab.hakim.se/reveal-js//lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        .reveal h1 { font-size: 2.5em; }
+    </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">SSI Fellowship Online Selection</h1>
+    <h2 class="author">Jens Hedegaard Nielsen</h2>
+    <h3 class="date">November, 2014</h3>
+</section>
+
+<section><section id="research-software-development" class="titleslide slide level1"><h1>Research Software development</h1></section><section id="zacros-kinetic-monte-carlo" class="slide level2">
+<h1>Zacros: Kinetic Monte Carlo</h1>
+<p>In principle about parallelization. However:</p>
+<ul>
+<li>Adding of testing framework.</li>
+<li>Standard complient code.</li>
+<li>Getting code compiling with multiple (Fortran) compilers.</li>
+<li>Maintainable for the future.</li>
+<li>Continus integration (Multiple compilers)</li>
+</ul>
+</section></section>
+<section><section id="open-source-contributions" class="titleslide slide level1"><h1>Open source contributions</h1></section><section id="matplotlib" class="slide level2">
+<h1>Matplotlib</h1>
+<ul>
+<li>60+ Pull requests merged</li>
+<li>Work on test suite, warnings cleanup.</li>
+<li>Reprodusable warning free docs build. (Warnigns as errors)</li>
+<li>Pull request review.</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+
+  <script src="http://lab.hakim.se/reveal-js//lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js//js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'moon', // available themes are in /css/theme
+        transition: 'slide', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'http://lab.hakim.se/reveal-js//plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'http://lab.hakim.se/reveal-js//plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
